@@ -53,17 +53,19 @@ nav a:hover {
     padding: 200px 0;
 }
 
-.hero h1 {
-    color: #ffffff;
-    font-size: 44px;
+.hero-title {
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
+    font-size: 44px;
+    line-height: 60px;        /* як у Figma */
+    letter-spacing: 0.06em;   /* 6% */
     text-transform: uppercase;
+    color: #ffffff;
 
-    width: 900px;          
-    margin: 0 auto 30px;   
+    width: 1048px;            /* 🔥 ось що було в Figma */
+    margin: 0 auto 30px auto; /* центрування */
 }
+
 
 
 .hero button {

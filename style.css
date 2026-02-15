@@ -153,6 +153,20 @@ nav a:hover {
     color: #757575;
 }
 
+.advantage-icon {
+    background-color: #F5F4FA;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.advantage-icon img {
+    width: 70px;
+    height: 70px;
+}
 
 /* ===== WORKS ===== */
 .works {

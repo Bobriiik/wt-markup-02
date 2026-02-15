@@ -1,3 +1,4 @@
+/* ===== BASIC ===== */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -10,7 +11,8 @@ body {
     padding: 0 15px;
 }
 
-/* HEADER */
+
+/* ===== HEADER ===== */
 header {
     background-color: #fff;
     border-bottom: 1px solid #ececec;
@@ -48,6 +50,19 @@ nav ul {
     padding: 0;
 }
 
+nav a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #212121;
+    transition: 0.2s;
+}
+
+nav a:hover {
+    color: #2196F3;
+}
+
+/* Active menu underline (finger) */
 nav li.active {
     display: flex;
     flex-direction: column;
@@ -59,6 +74,7 @@ nav li.active {
     margin-top: 6px;
 }
 
+
 /* Contacts */
 .contacts {
     margin-left: auto;
@@ -69,10 +85,16 @@ nav li.active {
 .contacts a {
     text-decoration: none;
     font-size: 14px;
+    font-weight: 500;
     color: #757575;
+
     display: flex;
     align-items: center;
     gap: 8px;
+}
+
+.contacts a:hover {
+    color: #2196F3;
 }
 
 /* Icons */
@@ -81,7 +103,7 @@ nav li.active {
     height: 16px;
 }
 
-/* Email underline */
+/* Email underline (finger) */
 .email-active {
     display: flex;
     flex-direction: column;
@@ -97,4 +119,166 @@ nav li.active {
 .finger-email {
     width: 140px;
     margin-top: 5px;
+}
+
+
+/* ===== HERO ===== */
+.hero {
+    background-color: #2F303A;
+    padding: 200px 0;
+    text-align: center;
+}
+
+/* Hero title centered */
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+}
+
+.hero button {
+    background-color: #2196F3;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #188CE8;
+}
+
+
+/* ===== ADVANTAGES ===== */
+.advantages {
+    padding: 60px 0;
+}
+
+.advantages .container {
+    display: flex;
+    gap: 30px;
+}
+
+.advantage-item {
+    width: 270px;
+}
+
+.advantage-item h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.advantage-item p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+
+/* ===== WORKS ===== */
+.works {
+    padding: 60px 0;
+}
+
+.works h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.works-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work-item {
+    width: 370px;
+}
+
+.work-item img {
+    width: 100%;
+    height: 294px;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
+
+
+/* ===== TEAM ===== */
+.team {
+    background-color: #f5f4fa;
+    padding: 60px 0;
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-member {
+    background-color: #ffffff;
+    width: 270px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-radius: 4px;
+}
+
+.team-member img {
+    width: 100%;
+    display: block;
+}
+
+.team-member h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    color: #757575;
+}
+
+
+/* ===== FOOTER ===== */
+footer {
+    background-color: #2F303A;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.footer-logo a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #2196F3;
+}
+
+footer address {
+    margin-top: 20px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #2196F3;
 }

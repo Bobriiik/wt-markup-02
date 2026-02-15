@@ -3,44 +3,70 @@ body {
     font-family: Arial, sans-serif;
 }
 header {
-    background-color: #ffffff;
+    background-color: #fff;
     border-bottom: 1px solid #ececec;
+    padding: 20px 0;
 }
 
 header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
+/* Логотип */
+.logo {
+    margin-right: 90px;
+}
+
+.logo a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo-blue {
+    color: #2196F3;
+}
+
+/* Меню */
 nav ul {
     display: flex;
-    list-style: none;
     gap: 50px;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
 nav a {
-    text-decoration: none;
     font-size: 14px;
     font-weight: 500;
+    text-decoration: none;
     color: #212121;
+    transition: 0.2s;
 }
 
 nav a:hover {
     color: #2196F3;
 }
 
+/* Контакти справа */
 .contacts {
+    margin-left: auto;
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .contacts a {
-    text-decoration: none;
     font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
     color: #757575;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.2s;
 }
 
 .contacts a:hover {
@@ -97,8 +123,9 @@ nav a:hover {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .works {

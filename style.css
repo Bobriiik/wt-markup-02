@@ -2,6 +2,15 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+/* Container */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* HEADER */
 header {
     background-color: #fff;
     border-bottom: 1px solid #ececec;
@@ -13,7 +22,7 @@ header .container {
     align-items: center;
 }
 
-/* Логотип */
+/* Logo */
 .logo {
     margin-right: 90px;
 }
@@ -30,19 +39,13 @@ header .container {
     color: #2196F3;
 }
 
-.contact-icon {
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
-}
-
-.btn-icon {
-    width: 18px;
-    margin-right: 8px;
-}
-
-nav li {
-    position: relative;
+/* Navigation */
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav li.active {
@@ -56,39 +59,7 @@ nav li.active {
     margin-top: 6px;
 }
 
-.email-active {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.finger-email {
-    width: 140px;
-    margin-top: 5px;
-}
-
-nav ul {
-    display: flex;
-    gap: 50px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav a {
-    font-size: 14px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #212121;
-    transition: 0.2s;
-}
-
-nav a:hover {
-    color: #2196F3;
-}
-
-/* Контакти справа */
+/* Contacts */
 .contacts {
     margin-left: auto;
     display: flex;
@@ -96,126 +67,34 @@ nav a:hover {
 }
 
 .contacts a {
-    font-size: 14px;
-    font-weight: 500;
     text-decoration: none;
+    font-size: 14px;
     color: #757575;
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: 0.2s;
 }
 
-.contacts a:hover {
-    color: #2196F3;
+/* Icons */
+.contact-icon {
+    width: 16px;
+    height: 16px;
 }
 
-.hero {
-    background-color: #2F303A;
-    text-align: center;
-    padding: 200px 0;
-}
-
-.hero-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;        
-    letter-spacing: 0.06em;   
-    text-transform: uppercase;
-    color: #ffffff;
-    width: 2000px;            
-    margin: 0 auto 30px auto; 
-}
-
-
-
-.hero button {
-    background-color: #2196F3;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 12px 32px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.hero button:hover {
-    background-color: #188CE8;
-}
-
-
-.logo a {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    letter-spacing: 0.03em; 
-    text-decoration: none;
-    color: #000;
-}
-
-.logo-blue {
-    color: #2196F3; 
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.works {
-    padding: 60px 0;
-}
-
-.works h2 {
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.works-list {
+/* Email underline */
+.email-active {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.work-item {
-    width: 370px;
+.contact-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.work-item img {
-    width: 100%;
-    height: 294px;
-    object-fit: cover;
-    display: block;
-    border-radius: 4px; 
-}
-
-.team { 
-    background-color: #f5f4fa; 
-    padding: 60px 0; 
-} 
-.team h2 { 
-    text-align: center; 
-    margin-bottom: 50px; 
-} 
-.team-list { 
-    display: flex; 
-    justify-content: space-between; 
-} 
-.team-member { 
-    background-color: #ffffff; 
-    width: 270px; 
-    text-align: center; 
-    padding-bottom: 20px; 
-} 
-.team-member img { 
-    width: 100%; display: block; 
-} 
-.team-member h3 { 
-    margin-top: 20px; 
-    margin-bottom: 5px; 
-} 
-.team-member p { 
-    color: #757575; 
+.finger-email {
+    width: 140px;
+    margin-top: 5px;
 }

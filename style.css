@@ -30,7 +30,44 @@ header .container {
     color: #2196F3;
 }
 
-/* Меню */
+.contact-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.btn-icon {
+    width: 18px;
+    margin-right: 8px;
+}
+
+nav li {
+    position: relative;
+}
+
+nav li.active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finger-line {
+    width: 60px;
+    margin-top: 6px;
+}
+
+.email-active {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.finger-email {
+    width: 140px;
+    margin-top: 5px;
+}
+
 nav ul {
     display: flex;
     gap: 50px;

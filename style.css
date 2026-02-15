@@ -57,13 +57,13 @@ nav a:hover {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;        /* як у Figma */
-    letter-spacing: 0.06em;   /* 6% */
+    line-height: 80px;        
+    letter-spacing: 0.06em;   
     text-transform: uppercase;
     color: #ffffff;
 
-    width: 1048px;            /* 🔥 ось що було в Figma */
-    margin: 0 auto 30px auto; /* центрування */
+    width: 1048px;            
+    margin: 0 auto 30px auto; 
 }
 
 

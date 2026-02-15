@@ -62,19 +62,6 @@ nav a:hover {
     color: #2196F3;
 }
 
-/* Active menu underline (finger) */
-nav li.active {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.finger-line {
-    width: 60px;
-    margin-top: 6px;
-}
-
-
 /* Contacts */
 .contacts {
     margin-left: auto;
@@ -102,25 +89,6 @@ nav li.active {
     width: 16px;
     height: 16px;
 }
-
-/* Email underline (finger) */
-.email-active {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.contact-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.finger-email {
-    width: 140px;
-    margin-top: 5px;
-}
-
 
 /* ===== HERO ===== */
 .hero {

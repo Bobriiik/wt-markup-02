@@ -60,8 +60,11 @@ nav a:hover {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin: 0 auto 30px auto;
+
+    width: 696px;          
+    margin: 0 auto 30px;   
 }
+
 
 .hero button {
     background-color: #2196F3;
